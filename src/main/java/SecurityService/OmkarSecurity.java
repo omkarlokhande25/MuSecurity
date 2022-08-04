@@ -7,9 +7,13 @@ import java.util.Base64.Encoder;
 public class OmkarSecurity {
 
 	public static void main(String[] args) {
-		
-		int i=1;
-		int j=2;
+
+		int i = 1;
+		int j = 2;
+
+		// Making Changes
+		String omkar = "Omkar";
+		String omkar1 = "Omkar1";
 
 		String a = "omkar@123";
 		String encode = encode(a);
@@ -20,6 +24,9 @@ public class OmkarSecurity {
 	}
 
 	public static String encode(String txt) {
+
+		// 2nd Changes Done
+		String abc = "PQR";
 
 		Encoder encoder = Base64.getEncoder();
 		return encoder.encodeToString(txt.getBytes());
