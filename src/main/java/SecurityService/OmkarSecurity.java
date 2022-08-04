@@ -7,6 +7,8 @@ import java.util.Base64.Encoder;
 public class OmkarSecurity {
 
 	public static void main(String[] args) {
+		
+		int i=0;
 
 		String a = "omkar@123";
 		String encode = encode(a);
