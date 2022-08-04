@@ -8,7 +8,8 @@ public class OmkarSecurity {
 
 	public static void main(String[] args) {
 		
-		int i=0;
+		int i=1;
+		int j=2;
 
 		String a = "omkar@123";
 		String encode = encode(a);
